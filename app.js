@@ -9,16 +9,24 @@ const userList = document.getElementById("user-lineup"), opponentList = document
       const boxScoreSection = document.getElementById("box-score");
       const scoreOutput = document.getElementById("score-output");
       
-const renderCharacters = () => {
-  charactersContainer.innerHTML = "";
-  availableCharacters.forEach((char, index) => {
-    const card = document.createElement("div");
-    card.className = "character-card";
-    card.innerHTML = `<h3>${char.name}</h3><p><strong>Overall:</strong> ${char.overall}</p><p><strong>Best Positions:</strong> ${char.positions.join(", ")}</p>`;
-    card.addEventListener("click", () => handlePick(index));
-    charactersContainer.appendChild(card);
-  });
-};
+      const renderCharacters = () => {
+        charactersContainer.innerHTML = "";
+        availableCharacters.forEach((char, index) => {
+          const card = document.createElement("div");
+          card.className = "character-card";
+          
+          // Add image with a fixed width and height
+          card.innerHTML = `
+            <img src="${char.image}" alt="${char.name}" class="character-image"/>
+            <h3>${char.name}</h3>
+            <p><strong>Overall:</strong> ${char.overall}</p>
+            <p><strong>Best Positions:</strong> ${char.positions.join(", ")}</p>
+          `;
+          card.addEventListener("click", () => handlePick(index));
+          charactersContainer.appendChild(card);
+        });
+      };
+      
 
 const handlePick = (index) => {
   if (!draftStarted || !isUserTurn || userLineup.length >= 11) return;

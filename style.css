@@ -71,6 +71,10 @@ main {
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .character-card:hover {
@@ -81,6 +85,21 @@ main {
 .character-card h3 {
   margin-top: 0;
 }
+
+.character-image {
+  width: 120px; /* Shrink the image size */
+  height: 120px;
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
 
 footer {
   text-align: center;

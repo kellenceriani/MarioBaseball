@@ -6,7 +6,8 @@ const marioCharacters = [
     pitching: { control: 78, velocity: 68, break: 63, special: 88, clutch: 83, stamina: 78 },
     overall: 85,
     chemistry: ["Luigi", "Peach", "Yoshi"],
-    favoriteLineupSpots: [2, 3, 5]
+    favoriteLineupSpots: [2, 3, 5],
+    image: "characterImgs/Mario.jpg"
   },
   {
     name: "Luigi",
@@ -15,7 +16,8 @@ const marioCharacters = [
     pitching: { control: 84, velocity: 67, break: 72, special: 78, clutch: 82, stamina: 80 },
     overall: 85,
     chemistry: ["Mario", "Toadette", "Daisy"],
-    favoriteLineupSpots: [1, 6, 9]
+    favoriteLineupSpots: [1, 6, 9],
+    image: "characterImgs/Luigi.jpg"
   },
   {
     name: "Peach",
@@ -24,7 +26,8 @@ const marioCharacters = [
     pitching: { control: 87, velocity: 62, break: 77, special: 90, clutch: 88, stamina: 72 },
     overall: 82,
     chemistry: ["Mario", "Daisy", "Toadette"],
-    favoriteLineupSpots: [1, 2, 9]
+    favoriteLineupSpots: [1, 2, 9],
+    image: "characterImgs/Peach.jpg"
   },
   {
     name: "Bowser",
@@ -33,7 +36,8 @@ const marioCharacters = [
     pitching: { control: 70, velocity: 96, break: 62, special: 88, clutch: 92, stamina: 87 },
     overall: 88,
     chemistry: ["Bowser Jr.", "Kamek", "Wario"],
-    favoriteLineupSpots: [4, 5]
+    favoriteLineupSpots: [4, 5],
+    image: "characterImgs/Bowser.jpg"
   },
   {
     name: "Yoshi",
@@ -42,7 +46,8 @@ const marioCharacters = [
     // pitching: { control: 87, velocity: 62, break: 77, special: 90, clutch: 88, stamina: 72 },
     overall: 86,
     chemistry: ["Birdo", "Toad", "Mario"],
-    favoriteLineupSpots: [1, 2, 9]
+    favoriteLineupSpots: [1, 2, 9],
+    image: "characterImgs/Yoshi.png"
   },
   {
     name: "Donkey Kong",
@@ -51,7 +56,8 @@ const marioCharacters = [
     // pitching: { control: 70, velocity: 96, break: 62, special: 88, clutch: 92, stamina: 87 },
     overall: 88,
     chemistry: ["Diddy Kong", "Wario", "Hammer Bro"],
-    favoriteLineupSpots: [3, 4, 5]
+    favoriteLineupSpots: [3, 4, 5],
+    image: "characterImgs/DonkeyKong.jpg"
   },
   {
     name: "Toad",
@@ -60,7 +66,8 @@ const marioCharacters = [
     pitching: { control: 86, velocity: 62, break: 70, special: 72, clutch: 80, stamina: 74 },
     overall: 80,
     chemistry: ["Toadette", "Yoshi", "Luigi"],
-    favoriteLineupSpots: [1, 7, 9]
+    favoriteLineupSpots: [1, 7, 9],
+    image: "characterImgs/Toad.jpg"
   },
   {
     name: "Wario",
@@ -69,7 +76,8 @@ const marioCharacters = [
     pitching: { control: 57, velocity: 87, break: 62, special: 77, clutch: 84, stamina: 82 },
     overall: 84,
     chemistry: ["Waluigi", "Donkey Kong", "Bowser"],
-    favoriteLineupSpots: [4, 5, 6]
+    favoriteLineupSpots: [4, 5, 6],
+    image: "characterImgs/Wario.jpg"
   },
   {
     name: "Daisy",
@@ -78,7 +86,8 @@ const marioCharacters = [
     // pitching: { control: 86, velocity: 62, break: 70, special: 72, clutch: 80, stamina: 74 },
     overall: 83,
     chemistry: ["Peach", "Luigi", "Toadette"],
-    favoriteLineupSpots: [2, 6, 8]
+    favoriteLineupSpots: [2, 6, 8],
+    image: "characterImgs/Daisy.jpg"
   },
   {
     name: "Rosalina",
@@ -87,7 +96,8 @@ const marioCharacters = [
     pitching: { control: 93, velocity: 82, break: 91, special: 96, clutch: 93, stamina: 86 },
     overall: 88,
     chemistry: ["Kamek", "Pauline", "Mario"],
-    favoriteLineupSpots: [3, 4, 5]
+    favoriteLineupSpots: [3, 4, 5],
+    image: "characterImgs/Rosalina.jpg"
   },
   {
     name: "Toadette",
@@ -96,7 +106,8 @@ const marioCharacters = [
     pitching: { control: 80, velocity: 58, break: 70, special: 78, clutch: 77, stamina: 70 },
     overall: 81,
     chemistry: ["Toad", "Daisy", "Luigi"],
-    favoriteLineupSpots: [1, 7, 9]
+    favoriteLineupSpots: [1, 7, 9],
+    image: "characterImgs/Toadette.jpg"
   },
   {
     name: "Bowser Jr.",
@@ -105,7 +116,8 @@ const marioCharacters = [
     pitching: { control: 78, velocity: 80, break: 75, special: 85, clutch: 84, stamina: 80 },
     overall: 84,
     chemistry: ["Bowser", "Kamek", "Shy Guy"],
-    favoriteLineupSpots: [3, 5, 6]
+    favoriteLineupSpots: [3, 5, 6],
+    image: "characterImgs/BowserJr..jpg"
   },
   {
     name: "Koopa Troopa",
@@ -114,7 +126,8 @@ const marioCharacters = [
     // pitching: { control: 75, velocity: 60, break: 68, special: 72, clutch: 70, stamina: 68 },
     overall: 79,
     chemistry: ["Dry Bones", "Shy Guy", "Monty Mole"],
-    favoriteLineupSpots: [1, 8, 9]
+    favoriteLineupSpots: [1, 8, 9],
+    image: "characterImgs/KoopaTroopa.jpg"
   },
   {
     name: "Shy Guy",
@@ -123,7 +136,8 @@ const marioCharacters = [
     pitching: { control: 73, velocity: 65, break: 70, special: 74, clutch: 75, stamina: 70 },
     overall: 78,
     chemistry: ["Koopa Troopa", "Dry Bones", "Bowser Jr."],
-    favoriteLineupSpots: [7, 8, 9]
+    favoriteLineupSpots: [7, 8, 9],
+    image: "characterImgs/ShyGuy.jpg"
   },
   {
     name: "Birdo",
@@ -132,7 +146,8 @@ const marioCharacters = [
     // pitching: { control: 70, velocity: 70, break: 65, special: 68, clutch: 78, stamina: 72 },
     overall: 83,
     chemistry: ["Yoshi", "Pauline", "Monty Mole"],
-    favoriteLineupSpots: [3, 5, 6]
+    favoriteLineupSpots: [3, 5, 6],
+    image: "characterImgs/Birdo.jpg"
   },
   {
     name: "Kamek",
@@ -141,7 +156,8 @@ const marioCharacters = [
     pitching: { control: 90, velocity: 70, break: 85, special: 92, clutch: 90, stamina: 80 },
     overall: 81,
     chemistry: ["Bowser", "Rosalina", "Bowser Jr."],
-    favoriteLineupSpots: [3, 4, 8]
+    favoriteLineupSpots: [3, 4, 8],
+    image: "characterImgs/Kamek.jpg"
   },
   {
     name: "Waluigi",
@@ -150,7 +166,8 @@ const marioCharacters = [
     pitching: { control: 80, velocity: 75, break: 72, special: 78, clutch: 80, stamina: 76 },
     overall: 82,
     chemistry: ["Wario", "Hammer Bro", "Shy Guy"],
-    favoriteLineupSpots: [5, 6, 7]
+    favoriteLineupSpots: [5, 6, 7],
+    image: "characterImgs/Waluigi.jpg"
   },
   {
     name: "Dry Bones",
@@ -159,7 +176,8 @@ const marioCharacters = [
     pitching: { control: 78, velocity: 65, break: 75, special: 76, clutch: 78, stamina: 74 },
     overall: 81,
     chemistry: ["Koopa Troopa", "Shy Guy", "Monty Mole"],
-    favoriteLineupSpots: [8, 9]
+    favoriteLineupSpots: [8, 9],
+    image: "characterImgs/DryBones.jpg"
   },
   {
     name: "Hammer Bro",
@@ -168,7 +186,8 @@ const marioCharacters = [
     // pitching: { control: 60, velocity: 85, break: 65, special: 80, clutch: 82, stamina: 78 },
     overall: 83,
     chemistry: ["Donkey Kong", "Waluigi", "Wario"],
-    favoriteLineupSpots: [3, 4, 5]
+    favoriteLineupSpots: [3, 4, 5],
+    image: "characterImgs/HammerBro.jpg"
   },
   {
     name: "Monty Mole",
@@ -177,7 +196,8 @@ const marioCharacters = [
     pitching: { control: 75, velocity: 65, break: 70, special: 72, clutch: 75, stamina: 70 },
     overall: 79,
     chemistry: ["Dry Bones", "Birdo", "Koopa Troopa"],
-    favoriteLineupSpots: [6, 8, 9]
+    favoriteLineupSpots: [6, 8, 9],
+    image: "characterImgs/MontyMole.jpg"
   },
   {
     name: "Pauline",
@@ -186,7 +206,8 @@ const marioCharacters = [
     pitching: { control: 82, velocity: 65, break: 75, special: 80, clutch: 80, stamina: 75 },
     overall: 84,
     chemistry: ["Rosalina", "Birdo", "Mario"],
-    favoriteLineupSpots: [1, 2, 4]
+    favoriteLineupSpots: [1, 2, 4],
+    image: "characterImgs/Pauline.jpg"
   },
   { 
   name: "King Boo", 
@@ -195,7 +216,8 @@ const marioCharacters = [
   pitching: { control: 88, velocity: 70, break: 85, special: 90, clutch: 90, stamina: 80 }, 
   overall: 86,
   chemistry: ["Petey Piranha", "Boo", "Dry Bones", "Bowser Jr."],
-  favoriteLineupSpots: [3, 4, 5]
+  favoriteLineupSpots: [3, 4, 5],
+    image: "characterImgs/KingBoo.jpg"
 },
 { 
   name: "Petey Piranha", 
@@ -204,7 +226,8 @@ const marioCharacters = [
   pitching: { control: 70, velocity: 85, break: 70, special: 80, clutch: 82, stamina: 78 }, 
   overall: 84,
   chemistry: ["King Boo", "Wiggler", "Piranha Plant", "Goomba"],
-  favoriteLineupSpots: [4, 5, 6]
+  favoriteLineupSpots: [4, 5, 6],
+    image: "characterImgs/PeteyPiranha.jpg"
 },
 { 
   name: "Captain Toad", 
@@ -213,7 +236,8 @@ const marioCharacters = [
   pitching: { control: 80, velocity: 60, break: 70, special: 75, clutch: 78, stamina: 70 }, 
   overall: 82,
   chemistry: ["Toadette", "Toadsworth", "Professor E. Gadd", "Luigi"],
-  favoriteLineupSpots: [1, 2, 7]
+  favoriteLineupSpots: [1, 2, 7],
+    image: "characterImgs/CaptainToad.jpg"
 },
 { 
   name: "Professor E. Gadd", 
@@ -222,7 +246,8 @@ const marioCharacters = [
   pitching: { control: 90, velocity: 65, break: 85, special: 92, clutch: 88, stamina: 75 }, 
   overall: 85,
   chemistry: ["Luigi", "Captain Toad", "E. Gaddbot", "Toadsworth"],
-  favoriteLineupSpots: [2, 6, 9]
+  favoriteLineupSpots: [2, 6, 9],
+    image: "characterImgs/ProfessorE.Gadd.jpg"
 },
 { 
   name: "Nabbit", 
@@ -231,7 +256,8 @@ const marioCharacters = [
   pitching: { control: 75, velocity: 70, break: 70, special: 78, clutch: 80, stamina: 72 }, 
   overall: 83,
   chemistry: ["Bowser Jr.", "Shy Guy", "Wario", "Waluigi"],
-  favoriteLineupSpots: [1, 2, 8]
+  favoriteLineupSpots: [1, 2, 8],
+    image: "characterImgs/Nabbit.jpg"
 },
 { 
   name: "Poochy", 
@@ -240,7 +266,8 @@ const marioCharacters = [
   pitching: { control: 70, velocity: 65, break: 68, special: 72, clutch: 75, stamina: 70 }, 
   overall: 80,
   chemistry: ["Yoshi", "Baby Mario", "Birdo", "Toadette"],
-  favoriteLineupSpots: [1, 8, 9]
+  favoriteLineupSpots: [1, 8, 9],
+    image: "characterImgs/Poochy.jpg"
 },
 { 
   name: "Goomba", 
@@ -249,7 +276,8 @@ const marioCharacters = [
   pitching: { control: 60, velocity: 55, break: 60, special: 65, clutch: 65, stamina: 65 }, 
   overall: 70,
   chemistry: ["Goombella", "Koopa", "Petey Piranha", "Monty Mole"],
-  favoriteLineupSpots: [7, 8, 9]
+  favoriteLineupSpots: [7, 8, 9],
+    image: "characterImgs/Goomba.jpg"
 },
 { 
   name: "Koopa Paratroopa", 
@@ -258,7 +286,8 @@ const marioCharacters = [
   pitching: { control: 70, velocity: 65, break: 70, special: 75, clutch: 75, stamina: 70 }, 
   overall: 78,
   chemistry: ["Koopa Troopa", "Lakitu", "Goomba", "Shy Guy"],
-  favoriteLineupSpots: [1, 6, 8]
+  favoriteLineupSpots: [1, 6, 8],
+    image: "characterImgs/KoopaParatroopa.jpg"
 },
 { 
   name: "Blooper", 
@@ -267,7 +296,8 @@ const marioCharacters = [
   pitching: { control: 75, velocity: 70, break: 80, special: 85, clutch: 78, stamina: 72 }, 
   overall: 77,
   chemistry: ["Cheep Cheep", "Gooper Blooper", "Koopa Paratroopa", "Monty Mole"],
-  favoriteLineupSpots: [7, 8, 9]
+  favoriteLineupSpots: [7, 8, 9],
+    image: "characterImgs/Blooper.jpg"
 },
 {
   name: "Lakitu",
@@ -276,7 +306,8 @@ const marioCharacters = [
   pitching: { control: 76, velocity: 72, break: 70, special: 82, clutch: 80, stamina: 75 },
   overall: 81,
   chemistry: ["Baby Mario", "Diddy Kong", "Funky Kong"],
-  favoriteLineupSpots: [2, 4, 7]
+  favoriteLineupSpots: [2, 4, 7],
+    image: "characterImgs/Lakitu.jpg"
 },
 {
   name: "Fawful",
@@ -285,7 +316,8 @@ const marioCharacters = [
   pitching: { control: 70, velocity: 69, break: 67, special: 80, clutch: 78, stamina: 72 },
   overall: 79,
   chemistry: ["King K. Rool", "Bowser", "Waluigi"],
-  favoriteLineupSpots: [3, 5, 8]
+  favoriteLineupSpots: [3, 5, 8],
+    image: "characterImgs/Fawful.jpg"
 },
 {
   name: "Baby Mario",
@@ -294,7 +326,8 @@ const marioCharacters = [
   pitching: { control: 70, velocity: 65, break: 60, special: 75, clutch: 80, stamina: 70 },
   overall: 82,
   chemistry: ["Luigi", "Peach", "Yoshi"],
-  favoriteLineupSpots: [1, 2, 4]
+  favoriteLineupSpots: [1, 2, 4],
+    image: "characterImgs/BabyMario.jpg"
 },
 {
   name: "Baby Luigi",
@@ -303,7 +336,8 @@ const marioCharacters = [
   pitching: { control: 75, velocity: 69, break: 66, special: 77, clutch: 80, stamina: 75 },
   overall: 83,
   chemistry: ["Mario", "Daisy", "Toadette"],
-  favoriteLineupSpots: [2, 4, 6]
+  favoriteLineupSpots: [2, 4, 6],
+    image: "characterImgs/BabyLuigi.jpg"
 },
 {
   name: "Baby Peach",
@@ -312,7 +346,8 @@ const marioCharacters = [
   pitching: { control: 68, velocity: 63, break: 62, special: 70, clutch: 75, stamina: 70 },
   overall: 78,
   chemistry: ["Baby Daisy", "Toadette", "Luigi"],
-  favoriteLineupSpots: [3, 5, 7]
+  favoriteLineupSpots: [3, 5, 7],
+    image: "characterImgs/BabyPeach.jpg"
 },
 {
   name: "Baby Daisy",
@@ -321,7 +356,8 @@ const marioCharacters = [
   pitching: { control: 70, velocity: 65, break: 63, special: 72, clutch: 75, stamina: 68 },
   overall: 79,
   chemistry: ["Baby Peach", "Yoshi", "Luigi"],
-  favoriteLineupSpots: [2, 5, 9]
+  favoriteLineupSpots: [2, 5, 9],
+    image: "characterImgs/BabyDaisy.png"
 },
 {
   name: "King K. Rool",
@@ -330,7 +366,8 @@ const marioCharacters = [
   pitching: { control: 80, velocity: 85, break: 90, special: 92, clutch: 88, stamina: 92 },
   overall: 88,
   chemistry: ["Fawful", "Dry Bowser", "Diddy Kong"],
-  favoriteLineupSpots: [4, 5, 6]
+  favoriteLineupSpots: [4, 5, 6],
+    image: "characterImgs/KingKRool.jpg"
 },
 {
   name: "Diddy Kong",
@@ -339,7 +376,8 @@ const marioCharacters = [
   pitching: { control: 75, velocity: 68, break: 72, special: 80, clutch: 85, stamina: 78 },
   overall: 86,
   chemistry: ["Lakitu", "Funky Kong", "Tiny Kong"],
-  favoriteLineupSpots: [1, 3, 4]
+  favoriteLineupSpots: [1, 3, 4],
+    image: "characterImgs/DiddyKong.jpg"
 },
 {
   name: "Tiny Kong",
@@ -348,7 +386,8 @@ const marioCharacters = [
   pitching: { control: 70, velocity: 75, break: 80, special: 78, clutch: 80, stamina: 77 },
   overall: 80,
   chemistry: ["Diddy Kong", "Funky Kong", "Lakitu"],
-  favoriteLineupSpots: [2, 3, 7]
+  favoriteLineupSpots: [2, 3, 7],
+    image: "characterImgs/TinyKong.png"
 },
 {
   name: "Funky Kong",
@@ -357,7 +396,8 @@ const marioCharacters = [
   pitching: { control: 78, velocity: 80, break: 72, special: 85, clutch: 90, stamina: 82 },
   overall: 86,
   chemistry: ["Diddy Kong", "Tiny Kong", "Lakitu"],
-  favoriteLineupSpots: [3, 5, 6]
+  favoriteLineupSpots: [3, 5, 6],
+    image: "characterImgs/FunkyKong.jpg"
 },
 {
   name: "Dry Bowser",
@@ -366,7 +406,8 @@ const marioCharacters = [
   pitching: { control: 88, velocity: 92, break: 90, special: 93, clutch: 92, stamina: 92 },
   overall: 88,
   chemistry: ["King K. Rool", "Waluigi", "Fawful"],
-  favoriteLineupSpots: [4, 6, 9]
+  favoriteLineupSpots: [4, 6, 9],
+    image: "characterImgs/DryBowser.jpg"
 },
 {
   name: "Wiggler",
@@ -375,7 +416,8 @@ const marioCharacters = [
   pitching: { control: 75, velocity: 78, break: 82, special: 80, clutch: 85, stamina: 80 },
   overall: 84,
   chemistry: ["King K. Rool", "Diddy Kong", "Funky Kong"],
-  favoriteLineupSpots: [4, 5, 7]
+  favoriteLineupSpots: [4, 5, 7],
+    image: "characterImgs/Wiggler.jpg"
 },
 {
   name: "Boo",
@@ -384,7 +426,8 @@ const marioCharacters = [
   pitching: { control: 72, velocity: 65, break: 70, special: 78, clutch: 80, stamina: 74 },
   overall: 82,
   chemistry: ["Dry Bowser", "Diddy Kong", "Funky Kong"],
-  favoriteLineupSpots: [1, 2, 6]
+  favoriteLineupSpots: [1, 2, 6],
+    image: "characterImgs/Boo.jpg"
 }
 
 ];
