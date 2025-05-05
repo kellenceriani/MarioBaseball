@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mario Baseball Lineup Draft</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mario Baseball Lineup Draft</h1>
+    <p>Build your dream team with Mario characters!</p>
+  </header>
+
+  <main>
+    <section id="draft-area">
+      <div class="player-team" id="user-team">
+        <h2>Your Team</h2>
+        <ul id="user-lineup" class="lineup"></ul>
+      </div>
+
+      <div class="player-team" id="opponent-team">
+        <h2>Opponent's Team</h2>
+        <ul id="opponent-lineup" class="lineup"></ul>
+      </div>
+    </section>
+
+    <section id="setup-team" style="display: none;">
+      <h2>Set Your Lineup</h2>
+      <form id="lineup-form"></form>
+      <button id="finalize-lineup">Finalize Lineup</button>
+    </section>
+    <footer>
+      <button id="compare-button" style="display: none;">Compare Teams</button>
+      <button id="sim-game-button" style="display: none;">Sim Game</button>
+    
+      <button id="start-draft">Start Draft</button>
+      <button id="setup-button" style="display: none;">Set Up Team</button>
+      <p id="draft-status">Click "Start Draft" to begin.</p>
+    </footer>
+    
+    <section id="box-score" style="display:none;">
+      <h2>Simulated Game Box Score</h2>
+      <div id="score-output"></div>
+    </section>
+
+    <section id="character-pool">
+      <h2>Available Characters</h2>
+      <div id="characters" class="character-grid"></div>
+    </section>
+  </main>
+
+  <script src="characters.js"></script>
+  <script src="app.js"></script>
+  <script src="simGame.js"></script>
+</body>
+</html>

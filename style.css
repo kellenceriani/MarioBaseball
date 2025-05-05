@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #c62828;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#draft-area {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 30px;
+}
+
+.player-team {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 45%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.lineup {
+  list-style: none;
+  padding: 0;
+}
+
+.lineup li {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#character-pool {
+  width: 100%;
+  max-width: 1000px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.character-card {
+  background: #e0e0e0;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.character-card:hover {
+  background: #d32f2f;
+  color: white;
+}
+
+.character-card h3 {
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+#start-draft, #compare-button, #finalize-lineup, #setup-button, #sim-game-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start-draft:hover, #compare-button:hover, #finalize-lineup:hover, #setup-button:hover, #sim-game-button:hover {
+  background: #1b5e20;
+}
+#lineup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+  
+  .lineup-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .lineup-row select {
+    margin-left: 8px;
+  }
+  
+  #setup-team {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .compare-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  .team-compare ul {
+    list-style: none;
+    padding: 0;
+  }
+  .team-compare li {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+  }
+  
+  .team-compare span {
+    color: red;
+    font-weight: bold;
+  }
+  .team-compare {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  .box-score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  
+  .box-score-table th, .box-score-table td {
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    text-align: center;
+  }
+  
+  .box-score-table th {
+    background-color: #f5f5f5;
+  }
+  
+  
